@@ -1,0 +1,66 @@
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  width: 540px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 26px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  margin-top: 0px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.mandatory {
+  margin: 0px;
+  padding: 0px;
+  color: red;
+  font-size: 15px;
+}
+input {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 180px;
+}
+
+.list {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+button {
+  margin: auto 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.formContainer {
+  text-align: center;
+}
+
+.header {
+  background-color: #0018a8;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit {
+  padding: 20px;
+  background-color: #0018a8;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 180px;
+}
